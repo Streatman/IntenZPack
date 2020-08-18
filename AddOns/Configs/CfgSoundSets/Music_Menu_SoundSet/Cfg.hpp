@@ -7,10 +7,4 @@ class Music_Menu_SoundSet
 	volumeFactor=1;
 	frequencyFactor=1;
 	spatial=0;
-
-	doppler=0;
-	startDelay=5;
-	startDelayRandomizer=5;
-	delay=1;
-	delayRandomizer=3;
 };
