@@ -1,7 +1,7 @@
 modded class ChernarusPlusData extends WorldData
 {
 	//----- weather vars
-	const float RAIN_THRESHOLD = 0.75;
+	const float RAIN_THRESHOLD = 0.7;
 	const float STORM_THRESHOLD = 0.9;
 
 	const int OVERCAST_MIN_TIME = 600;
