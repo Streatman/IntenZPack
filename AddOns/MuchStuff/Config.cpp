@@ -8,7 +8,8 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"MSP_Storage_crates",
-			"MSP_Scripts"
+			"MSP_Scripts",
+			"IntenZ_MissionContainer"
 		};
 	};
 };
@@ -38,5 +39,10 @@ class CfgVehicles
 	{
 		itemSize[] = {10,7};
 		weight = 15000;
+	};
+	class WoodenCrate;
+	class Mission_Container: WoodenCrate
+	{
+		model = "\MuchStuffPack\MSP_Storage_crates\militarycrate\militarycrate.p3d";
 	};
 };
