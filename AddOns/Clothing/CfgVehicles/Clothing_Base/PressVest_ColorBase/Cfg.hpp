@@ -6,6 +6,7 @@ class PressVest_ColorBase: Clothing
 		"camoMale",
 		"camoFemale"
 	};
+	itemSize[]={2,3};
 };
 
 class PressVest_IntenZ: PressVest_ColorBase
