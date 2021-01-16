@@ -13,8 +13,20 @@ modded class FlashlightLight extends SpotLightBase
 		EnableSpecular(true);
 		SetBrightnessTo(m_DefaultBrightness);
 		SetFadeOutTime(0.15);
+	//	SetAmbientColor(1.0, 0.85, 0.75);
+	//	SetDiffuseColor(1.0, 0.85, 0.75);
+	}
+	
+	void SetColorToWhite()
+	{
 		SetAmbientColor(1.0, 0.85, 0.75);
 		SetDiffuseColor(1.0, 0.85, 0.75);
+	}
+	
+	void SetColorToRed()
+	{
+		SetAmbientColor(1.0, 0.085, 0.075);
+		SetDiffuseColor(1.0, 0.085, 0.075);
 	}
 	
 	void SetIntensity( float coef, float time )

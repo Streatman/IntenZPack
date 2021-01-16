@@ -36,4 +36,5 @@ class CfgMods
 	};
 };
 
+#include "CfgVehicles\Cfg.hpp"
 #include "CfgWorlds\Cfg.hpp"

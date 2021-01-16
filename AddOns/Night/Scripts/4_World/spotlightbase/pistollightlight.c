@@ -12,9 +12,21 @@ modded class PistollightLight extends SpotLightBase
 		SetCastShadow(true);
 		SetBrightnessTo(m_DefaultBrightness);
 		SetFadeOutTime(0.15);
+	//	SetAmbientColor(1.0, 0.9, 0.8);
+	//	SetDiffuseColor(1.0, 0.9, 0.8);
+	//	SetDisableShadowsWithinRadius(0.25);
+	}
+	
+	void SetColorToWhite()
+	{
 		SetAmbientColor(1.0, 0.9, 0.8);
 		SetDiffuseColor(1.0, 0.9, 0.8);
-		//SetDisableShadowsWithinRadius(0.25);
+	}
+	
+	void SetColorToRed()
+	{
+		SetAmbientColor(1.0, 0.09, 0.08);
+		SetDiffuseColor(1.0, 0.09, 0.08);
 	}
 	
 	void SetIntensity( float coef, float time )
