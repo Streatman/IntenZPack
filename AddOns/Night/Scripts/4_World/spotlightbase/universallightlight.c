@@ -24,8 +24,8 @@ modded class UniversallightLight extends SpotLightBase
 	
 	void SetColorToRed()
 	{
-		SetAmbientColor(0.8, 0.09, 0.08);
-		SetDiffuseColor(0.8, 0.09, 0.08);
+		SetAmbientColor(0.9, 0.09, 0.08);
+		SetDiffuseColor(0.9, 0.09, 0.08);
 	}
 	
 	void SetIntensity( float coef, float time )

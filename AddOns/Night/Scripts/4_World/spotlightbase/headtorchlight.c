@@ -5,7 +5,7 @@ modded class HeadtorchLight extends SpotLightBase
 	private static float m_Radius_Red 		= 16;
 	private static float m_Brightness_Red 	=  3;
 	
-	private static float m_DefaultAngle 	=100;	// 130
+	private static float m_DefaultAngle 	= 90;	// 130
 	
 	void HeadtorchLight()
 	{
@@ -24,8 +24,8 @@ modded class HeadtorchLight extends SpotLightBase
 	
 	void SetColorToRed()
 	{
-		SetAmbientColor(0.8, 0.09, 0.1);
-		SetDiffuseColor(0.8, 0.09, 0.1);
+		SetAmbientColor(0.64, 0.09, 0.1);
+		SetDiffuseColor(0.64, 0.09, 0.1);
 	}
 	
 	void SetIntensity( float coef, float time )
