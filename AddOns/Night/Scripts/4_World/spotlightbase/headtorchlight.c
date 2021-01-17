@@ -5,7 +5,7 @@ modded class HeadtorchLight extends SpotLightBase
 	private static float m_Radius_Red 		= 16;
 	private static float m_Brightness_Red 	=  3;
 	
-	private static float m_DefaultAngle 	= 90;	// 130
+	private static float m_DefaultAngle 	=100;	// 130
 	
 	void HeadtorchLight()
 	{
