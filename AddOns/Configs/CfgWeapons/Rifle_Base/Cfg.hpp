@@ -129,6 +129,11 @@ class VSS: VSS_Base
 {
 	displayName="$STR_iz_cfgweapons_vss0";
 	descriptionShort="$STR_iz_cfgWeapons_VSS1";
+	magazines[]=
+	{
+		"Mag_VSS_10Rnd",
+		"Mag_VAL_20Rnd"
+	};
 };
 class ASVAL: VSS_Base
 {
