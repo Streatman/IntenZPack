@@ -182,3 +182,8 @@ class M249_Bipod: Inventory_Base
 	displayName="$STR_iz_cfgVehicles_M249_Bipod0";
 	descriptionShort="$STR_iz_cfgVehicles_M249_Bipod1";
 };
+class FieldShovel: Inventory_Base
+{
+	displayName="$STR_iz_CfgVehicles_FieldShovel0";
+	descriptionShort="$STR_iz_CfgVehicles_FieldShovel1";
+};
